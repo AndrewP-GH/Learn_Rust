@@ -1,7 +1,7 @@
 use std::fs;
 
 fn load_data() -> Vec<i32> {
-    let contents = fs::read_to_string("./src/adventofcode/day_1/data.txt")
+    let contents = fs::read_to_string("./src/adventofcode/day_1/input.txt")
         .expect("Something went wrong reading the file");
 
     return contents.split("\n").map(|s| s.parse().unwrap()).collect();
