@@ -7,6 +7,7 @@ fn load_data() -> Vec<i32> {
     return contents.split("\n").map(|s| s.parse().unwrap()).collect();
 }
 
+#[allow(dead_code)]
 pub fn task_1() {
     let numbers = load_data();
     let mut counter = 0;
@@ -18,6 +19,7 @@ pub fn task_1() {
     println!("first: {}", counter);
 }
 
+#[allow(dead_code)]
 pub fn task_2() {
     let numbers = load_data();
     let mut counter = 0;
@@ -28,6 +30,5 @@ pub fn task_2() {
             counter += 1;
         }
     }
-
     println!("second: {}", counter);
 }
