@@ -1,6 +1,6 @@
 mod adventofcode;
 
 fn main() {
-    adventofcode::day2::task_1();
-    adventofcode::day2::task_2();
+    adventofcode::day3::task_1();
+    adventofcode::day3::task_2();
 }
